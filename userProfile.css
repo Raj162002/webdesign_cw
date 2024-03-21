@@ -5,18 +5,41 @@
   height: 100vh;
   border: 3px solid orange;
 }
+
+.page-container .overlay{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .container {
-    height: 200px;
-    width: 300px;
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
     position: relative;
-    border: 3px solid green;
+    background: white;
+    z-index: 2;
   }
-  
-  .sign-up-button {
+  .log-in-button {
     margin: 0;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+  #log-in{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #log-in:hover{
+    cursor: pointer;
+  }
+  .text{
+    padding-left: 10px;
   }
