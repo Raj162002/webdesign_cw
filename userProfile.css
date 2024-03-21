@@ -1,6 +1,13 @@
+.page-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  border: 3px solid orange;
+}
 .container {
-    height: 80px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
     position: relative;
     border: 3px solid green;
   }
@@ -8,7 +15,7 @@
   .sign-up-button {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
