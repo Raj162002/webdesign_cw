@@ -36,7 +36,6 @@ header::after{
 }
 
 nav {
-  float: right;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,4 +81,9 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+#feedback{
+  float: right;
+  display:flex;
+  justify-content: flex-end;
 }
