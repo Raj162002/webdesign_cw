@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #535367;
+    background: #05445e;
     font-family: Arial, sans-serif;
     font-weight: 300;
 }
@@ -10,7 +10,7 @@ body{
 
 }
 header{
-    background: #437106;
+    background: #75e6da;
     padding-left: 20px;
 }
 header::after{
@@ -36,10 +36,17 @@ header::after{
     padding: 10px 0; /* Add padding to the logo */
     margin-left: 20px;
     padding-bottom: 0%; 
+    scale: 1;
+}
+#feedback{
+    float: right;
+    padding: 10px 0;
 }
 
 nav {
     float: right;
+    text-align: center;
+    allign: center;
   }
   
   nav ul {
