@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: #535367;
+  background: #3090b3c2;
   font-family: Arial, sans-serif;
   font-weight: 300;
 }
@@ -9,7 +9,7 @@ body{
   margin: 0 auto;
 }
 header{
-  background: #437106;
+  background: #fc2811f2;
   padding-left: 20px;
 }
 header::after{
@@ -39,6 +39,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bolder;
+  padding-left: 0%;
 }
 
 nav ul {
@@ -65,12 +67,17 @@ nav a {
 nav a:hover {
   color: #000;
 }
+nav a:active{
+  color: #000;
+  width: 100%;
+}
+
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #272727;
+  background-color: #ffe608;
 
   position: absolute;
   top: 0;
@@ -86,4 +93,10 @@ nav a:hover::before {
   float: right;
   display:flex;
   justify-content: flex-end;
+}
+#mainimage{
+  /* scale: 0.1; */
+  width:100%;
+  height: 100%;
+ 
 }
