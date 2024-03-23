@@ -43,3 +43,11 @@
   .text{
     padding-left: 10px;
   }
+  #data-collection{
+    
+    border: 3px solid blue;
+
+  }
+  .log-in-form{
+    padding-left: 10px;
+  }
