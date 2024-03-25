@@ -3,7 +3,7 @@
   justify-content: center; 
   align-items: center; 
   height: 100vh;
-  border: 3px solid orange;
+  background-color: #05445E;
 }
 
 .page-container .overlay{
@@ -12,7 +12,8 @@
   left: 0px;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
+  
 }
 
 .container {
@@ -51,3 +52,10 @@
   .log-in-form{
     padding-left: 10px;
   }
+  #uname{
+      padding: 10px 50px 10px 50px;
+  }
+  #pwrd{
+    padding: 10px 50px 10px 50px;
+  }
+  
