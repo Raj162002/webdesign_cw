@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Css of the body*/
+body{
+    background-color:rgb(148, 179, 232)  ;  
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: 'PT Serif', serif;   /*font*/
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+hr{
+    background-color: #171715;
+    height: 1px;
+    border: none;
+}
+
+/*css of the navigation bar*/
+.navbar{
+    background-color: rgb(221, 86, 86);  /*background color of the navigation bar*/
+    padding: 10px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo{                /*css for the size of the logo*/
+    height: 50px;
+   
+}
+
+.nav_links_container{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_links{
+    font-weight: 500;              /*font weight of the links*/
+    color: #f5f4f1;    /*color of the links*/
+    margin-left: 35px;
+}
+
+.nav_links:hover{
+    color: black;        /*color of the links when hovering*/     
+    background-color: #daa520;   /*background color of the links while hovering*/
+    border-radius: 6px;
+    padding:10px 16px;
+    }
+
+
+.about_nav_link{
+    align-self: center;
+    border-radius: 6px;
+    padding: 10px 16px;
+    color: black;                /*color of the about us link*/
+    background-color: #ebe9e5;  /*background color of the about us link*/
+}
+
+.about_nav_link:hover{
+    background-color:black;
+    border: 1px solid #f1f1f0;
+    color:#f7f5f0 ;
+    
+}
+
+
+/*css of footer*/
+.foot{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.foot_text{
+    color: #daa520;
+    padding-top: 20px;
+}
+
+.foot_icons{
+    display:flex;
+}
+
+.foot_icon{
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+.copyright{
+    display: flex;
+}
+
+.foot a{
+    font-weight: 500;
+}
