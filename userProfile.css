@@ -1,19 +1,12 @@
+body{
+  margin: 0;
+}
 .page-container{
   display: flex;
   justify-content: center; 
   align-items: center; 
   height: 100vh;
-  background-color: #05445E;
-}
-
-.page-container .overlay{
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4);
-  
+  background-image: linear-gradient(to top, #05445e, black);
 }
 
 .container {
@@ -22,12 +15,12 @@
     border-radius: 5px;
     position: relative;
     background: white;
-    z-index: 2;
+    z-index: 2; 
   }
   .log-in-button {
     margin: 0;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -37,6 +30,7 @@
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    
   }
   #log-in:hover{
     cursor: pointer;
@@ -44,11 +38,30 @@
   .text{
     padding-left: 10px;
   }
-  #data-collection{
-    
-    border: 3px solid blue;
 
+  .pop-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
   }
+  #data-collection{
+    margin-top: 20px;
+    
+  }
+  #data-collection form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  #data-collection label {
+    margin-bottom: 10px; 
+}
+#data-collection input {
+    width: 300px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
   .log-in-form{
     padding-left: 10px;
   }
