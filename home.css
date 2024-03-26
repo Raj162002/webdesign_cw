@@ -1,47 +1,4 @@
 body{
-    margin: 0;
-    background: #8797AF;
-    font-family: Arial, sans-serif;
-    font-weight: 300;
+  background:linear-gradient(to right, rgb(0, 36, 36), rgb(0, 20, 20),rgb(0, 9, 9))
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
-    padding: ;
 
-}
-header{
-    background: #5f4b66;
-    padding-left: 20px;
-}
-header::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-.logo{
-    /* display: block; */
-    float: left;
-    /* padding: 10px 0; */
-    margin-left: 0cm;
-    /* margin: 0 auto; */
-    width: 2%;
-    padding: 10px 0;
-
-    /* padding-right: 30%; */
-}
-nav{
-    text-align: center;
-
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-nav li{
-    display: inline-block;
-    margin-right: 0 35px;
-    margin-left: 70px;
-    padding-top: 25px;
-}
