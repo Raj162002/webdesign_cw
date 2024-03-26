@@ -16,7 +16,7 @@ body {
 }
 
 #edu-pro h1 {
-  color: #d2e2ef;
+  color: #daab4e;
   font-size: 24px;
   
 
@@ -53,7 +53,7 @@ a {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #45a7c3;
+  background-color: #daab4e;
   border: none;
   color: white;
   font-size: 16px;
@@ -65,7 +65,7 @@ a {
 
 #log-in:hover {
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #d49d30;
 }
 
 .text {
