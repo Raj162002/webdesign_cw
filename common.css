@@ -9,7 +9,7 @@ body{
     background-color:#d4f1f4  ;  
     background-repeat: no-repeat;
     font-size: 15px;
-    font-family: 'PT Serif', serif;   /*font*/
+    font-family: 'Poppins', serif;   /*font*/
 }
 
 a{
@@ -47,6 +47,7 @@ hr{
 }
 
 .nav_links{
+    font-size: 16px;
     font-weight: 500;              /*font weight of the links*/
     color: #f5f4f1;    /*color of the links*/
     margin-left: 35px;
@@ -107,7 +108,21 @@ hr{
     font-weight: 500;
 }
 .bodyContainer{
-    padding-top: 90px;
+    padding-top: 100px;
     padding-bottom: 90px;
-    background-image: url("prado-NhlIPS1L9pI-unsplash.jpg");
+    background-image: url("newcropbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
+.bodyContainer h1{
+    text-align: center;
+    font-size: 40px;
+    color: #f5f4f1;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+
