@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userProfile.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <script id="personal">
+        const personalQuestions = ["Enter your name", 
+                                    "Enter your age",
+                                    "Enter yor gender", 
+                                    "Agreed to our privacy policy"];
+        let personal = new Map;
+        
+        for(let i = 0; i < personalQuestions.length; i++){
+            let input = prompt(personalQuestions[i]);
+            let test = personal.set(personalQuestions[i], input);
+            console.log(test);
+        }
+    </script>
+    <script id="volunteering">
+        const volunteeringQuestion = ["What brings you to this cause", 
+                                        "Description of Assignment", 
+                                        "Place of volunteering", 
+                                        "Assignment type"];
+        let volunteering = new Map;
+        for(let i=0; i < volunteeringQuestion.length; i++){
+            let input = prompt(volunteeringQuestion[i]);
+            let test = volunteering.set(volunteeringQuestion[i], input);
+            console.log(test);
+        }
+    </script>
+    <script id="qualifications">
+        const qualificationQuestions = ["Areas of study", "Highest degree",
+                                        "University/institution",
+                                        "Completion year","Country"];
+        let qualifications = new Map;
+        for(let i=0; i < qualificationQuestions.length; i++){
+            let input = prompt(qualificationQuestions[i]);
+            let test = volunteering.set(qualificationQuestions[i], input);
+            console.log(test);
+        }
+    </script>
+    <script id="contact">
+        
+
+    </script>
+    
+</body>
+</html>
