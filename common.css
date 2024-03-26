@@ -6,7 +6,7 @@
 
 /*Css of the body*/
 body{
-    background-color:rgb(148, 179, 232)  ;  
+    background-color:#d4f1f4  ;  
     background-repeat: no-repeat;
     font-size: 15px;
     font-family: 'PT Serif', serif;   /*font*/
@@ -25,7 +25,7 @@ hr{
 
 /*css of the navigation bar*/
 .navbar{
-    background-color: rgb(221, 86, 86);  /*background color of the navigation bar*/
+    background-color: #189ab4;  /*background color of the navigation bar*/
     padding: 10px 100px;
     width: 100%;
     display: flex;
@@ -35,6 +35,8 @@ hr{
 
 .logo{                /*css for the size of the logo*/
     height: 50px;
+    scale: 2.5;
+    padding-top: 5px;
    
 }
 
@@ -51,8 +53,8 @@ hr{
 }
 
 .nav_links:hover{
-    color: black;        /*color of the links when hovering*/     
-    background-color: #daa520;   /*background color of the links while hovering*/
+    color: #75e6da;        /*color of the links when hovering*/     
+    background-color: #05445e;   /*background color of the links while hovering*/
     border-radius: 6px;
     padding:10px 16px;
     }
@@ -63,13 +65,13 @@ hr{
     border-radius: 6px;
     padding: 10px 16px;
     color: black;                /*color of the about us link*/
-    background-color: #ebe9e5;  /*background color of the about us link*/
+    background-color: #daab4e;  /*background color of the about us link*/
 }
 
 .about_nav_link:hover{
     background-color:black;
     border: 1px solid #f1f1f0;
-    color:#f7f5f0 ;
+    color:#f3b20f ;
     
 }
 
@@ -77,13 +79,13 @@ hr{
 /*css of footer*/
 .foot{
     display: flex;
-    background-color: black;
+    background-color: #189ab4;
     justify-content: space-between;
     padding: 5px 50px;
 }
 
 .foot_text{
-    color: #daa520;
+    color: #f5f4f1;
     padding-top: 20px;
 }
 
