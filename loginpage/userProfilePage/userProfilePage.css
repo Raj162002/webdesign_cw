@@ -1,12 +1,22 @@
+body{
+    margin: 0;
+    background-color: white;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: linear-gradient(to top, #05445e, black);
 }
 .modal{
     padding: 20px;
     max-width: 50ch;
+    z-index: 1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(126, 194, 227, 0.2);
+    border-radius: 15px;
 
 
     & > * {
@@ -15,20 +25,60 @@
 
 }
 
+
 .button{
     display: flex;
     justify-content: space-between;
 
 }
+#submit-button:hover{
+    cursor: pointer;
+    background-color: #d49d30;
+}
+#skip-button:hover{
+    cursor: pointer;
+    background-color: #d49d30;
+}
 #skip-button{
-    width: 100px;
-    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #daab4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
 }
 #submit-button{
-    width: 100px;
-    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #daab4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
 }
 
 form{
     padding: 100px;
+    color: white;
+}
+
+.pop-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#question-answer {
+    width: 100%; 
+    height: 10px; 
+    margin-top: 0.5rem; 
+}
+.form-group{
+    display: flex;
+    justify-content: flex-end;
 }
