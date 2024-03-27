@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="userProfilePage.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="overlay"></div>
-        <div class="content">
-
-        </div>
-        <div class="skip-button"><button id="skip-button"></button></div>
-        <div class="submit-button"><button id=""></button></div>
+        <dialog open class="modal">
+            <form class="pop-up">
+                <label id="Question" for="question-answer">Question 1</label><br>
+                <input type="text" id="question-answer" name="answer">
+            </form>
+            <div class="button">
+                <button id="skip-button">Skip</button>
+                <button id="submit-button">Submit</button>
+            </div>
+            
+        </dialog>
     </div>
 </body>
 </html>

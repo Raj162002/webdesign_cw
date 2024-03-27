@@ -15,6 +15,11 @@ body {
   
 }
 
+.pop-up img{
+  height: 250;
+  width: 200;
+}
+
 #edu-pro h1 {
   color: #daab4e;
   font-size: 24px;
