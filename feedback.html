@@ -34,10 +34,10 @@
             <a class="nav_links" href="#">User Profile</a>
 
             <!-- linking the feedback form -->
-            <a class="nav_links" href="comment.html">Feedback </a>
+            <a class="nav_links" href="feedback.html">Feedback </a>
 
             <!-- linking the shop -->
-            <a class="nav_links" href="Shop.html">Shop</a>
+            <a class="nav_links" href="#">Shop</a>
         </div>
 
 
@@ -47,14 +47,14 @@
 
     <!-- The form part starts here -->
     <div class="form">
-        <form id="comment_form" name="comment_form" action="mailto:rajeevan.20230018@iit.ac.lk" method="post">
+        <form id="feedback_form" name="feedback_form" action="mailto:rajeevan.20230018@iit.ac.lk" method="post">
             <h1>Feedback form</h1>
             <fieldset class="fieldsetcontent">
                 <legend>User details</legend>
                     <div class="eachfield" id="names">
                         <!-- For the first name -->
                         <label for="first_name">First name:-</label>
-                        <input type="text" name="first_name" id="first_name" size="20" placeholder="your first name" required autofocus>
+                        <input type="text" name="first_name" id="first_name" size="20" placeholder="your first name" required autofocus onkeyup="checkforempty(this.form,first_name)">
                     </div>
                     
                     
@@ -178,6 +178,7 @@
         
         
     </div>
+<script src="feedback.js"></script>    
     
 </body>
 </html>
