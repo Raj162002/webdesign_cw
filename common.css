@@ -111,10 +111,10 @@ hr{
     padding-top: 100px;
     padding-bottom: 90px;
     background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('newcropbg.jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    margin-bottom: 90px;
 }
 .bodyContainer h1{
     text-align: center;
