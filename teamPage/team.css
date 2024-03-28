@@ -11,6 +11,7 @@ body{
 }
 
 .heading {
+    padding-top: 150px;
     text-align: center;
     margin-bottom: 20px;
     width: 100%;
