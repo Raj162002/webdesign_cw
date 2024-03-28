@@ -27,6 +27,7 @@ hr{
 .navbar{
     background-color: #189ab4;  /*background color of the navigation bar*/
     padding: 10px 100px;
+    opacity: 0.85;
     width: 100%;
     display: flex;
     justify-content: space-between;

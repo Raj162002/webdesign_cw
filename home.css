@@ -4,13 +4,27 @@ body{
 #mission{
   margin: 20px 550px;
   text-align: justify;
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: 1px;
-  background-color: aqua;
+  background:linear-gradient(to right, rgb(20, 80, 80), rgb(21, 139, 139),rgb(5, 199, 199));
+  opacity: 0.9;
   border-radius: 50px;
   padding: 60px 80px;
   /* padding-left: 100px;
   padding-right: 100px; */
+
+}
+#para{
+  color: rgb(223, 218, 218);
+  font-weight: bold;
+}
+#education{
+  /* background-color: aqua; */
+  margin: 20px 20px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: white;
+  padding-left: 30px;
 
 }
 
