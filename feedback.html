@@ -49,33 +49,33 @@
     <div class="form">
         <form id="comment_form" name="comment_form" action="mailto:rajeevan.20230018@iit.ac.lk" method="post">
             <h1>Feedback form</h1>
-            <fieldset>
+            <fieldset class="fieldsetcontent">
                 <legend>User details</legend>
-                    <div class="eachfield">
+                    <div class="eachfield" id="names">
                         <!-- For the first name -->
                         <label for="first_name">First name:-</label>
                         <input type="text" name="first_name" id="first_name" size="20" placeholder="your first name" required autofocus>
                     </div>
                     
                     
-                    <div class="eachfield">
+                    <div class="eachfield" id="names">
                         <!-- For the last name -->
                         <label for="last_name">Last name:-</label>
                         <input type="text" name="last_name" id="last_name" size="20" placeholder="your last name" required>
                     </div>
                     
-                    <div class="eachfield">
+                    <div class="eachfield" id="names">
                         <!-- For the email -->
                         <label for="email">Email:-</label>
                         <input type="email" name="email" id="email" size="20" placeholder="your email address" required>
                     </div>
                     
             </fieldset>
-            <fieldset>
+            <fieldset class="fieldsetcontent" id="feedback">
                 <legend>Feedback</legend>
                 <div class="radiobutton" >
                     <div class="eachfield">
-                    Is this your first time visiting our site?<br>
+                    <span class="text1"> Is this your first time visiting our site?</span><br>
                     <input type="radio" name="feedback_1" id="yes" value="yes" required checked>
                     <label for="yes">Yes</label>
                     <input type="radio" name="feedback_1" id="no" value="no" required>

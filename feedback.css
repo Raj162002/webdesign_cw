@@ -1,27 +1,46 @@
 .form {
-    padding-top: 100px; /*padding from the top to get this below the nav bar*/
+    padding-top: 100px; /* padding from the top to get this below the nav bar */
 }
 label{
+    width: 85%;
+
+}
+#names label {
     /* float: left; */
-    width:25%;
-    margin-right: 0.5cm;
+    width: 25%;
+    margin-right: 0.2cm;
     padding-top: 0.2cm;
-    text-align: right;
     font-weight: bold;
 }
-fieldset{
-    padding:1em;
-    font:80%1 sans-serif;
-    border-radius: 1cm;
+#feedback label{
+    margin-right: 0.2cm;
+    margin-right: 0.2cm;
+    padding-top: 0.2cm;
+    font-weight: bold;
+
 }
-.form{
-    display:flex;
+.text1{
+    text-align: center;
+}
+fieldset {
+    padding: 1em;
+    font: 80%/1 sans-serif; /* corrected font size declaration */
+    border-radius: 1cm;
+    
+}
+
+.form {
+    display: flex;
     justify-content: center;
 }
-.eachfield{
+
+.eachfield {
     margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
 }
-legend{
+
+legend {
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
@@ -29,17 +48,22 @@ legend{
     padding-right: 0.5em;
 }
 
-.buttons{
-    display:flex;
+.buttons {
+    display: flex;
     justify-content: center;
-    padding: 1em;;
+    padding: 1em;
 }
-in
-input [type="submit"]{
+
+input[type="submit"] {
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 0.5em;
     background-color: #189ab4;
     color: white;
     font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
 }
