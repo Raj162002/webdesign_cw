@@ -1,3 +1,22 @@
 .form {
     padding-top: 100px; /*padding from the top to get this below the nav bar*/
 }
+label{
+    /* float: left; */
+    width:25%;
+    margin-right: 0.5cm;
+    padding-top: 0.2cm;
+    text-align: right;
+    font-weight: bold;
+}
+fieldset{
+    padding:1em;
+    font:80%1 sans-serif;
+}
+.form{
+    display:flex;
+    justify-content: center;
+}
+.eachfield{
+    margin-bottom: 1em;
+}
