@@ -5,6 +5,10 @@ label{
     width: 85%;
 
 }
+fieldset {
+    background-color: #f5f4f1;
+    
+}
 #names label {
     /* float: left; */
     width: 25%;
@@ -23,8 +27,7 @@ label{
     text-align: center;
 }
 fieldset {
-    padding: 1em;
-    font: 80%/1 sans-serif; /* corrected font size declaration */
+    padding: 1em; 
     border-radius: 1cm;
     
 }
@@ -36,34 +39,53 @@ fieldset {
 
 .eachfield {
     margin-bottom: 1em;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 legend {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 25px;
     text-align: center;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    background-color: #189ab4;
+    border-radius: 0.5cm;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
     padding: 1em;
+    font-size: 15px;
 }
 
-input[type="submit"] {
-    padding: 0.5em;
+input[type="submit"],input[type="reset"] {
+    padding: 10px 16px;
     margin: 0.5em;
-    border-radius: 0.5em;
+    border-radius: 6px;
     background-color: #189ab4;
-    color: white;
+    color: black;
     font-weight: bold;
+    border: none;
 }
+input[type="submit"]:hover,input[type="reset"]:hover {
+    background-color: #05445e;
+    color: #f5f4f1;
+}
+
 
 h1 {
     text-align: center;
     margin-bottom: 1em;
+}
+input[type="text"],textarea,input[type="email"] {
+    padding: 1em;
+    background-color: #84d5e5;
+    border-radius: 0.2cm;
+
+}
+#additionalfield .eachfield label{
+    float: left;
+
+
 }
