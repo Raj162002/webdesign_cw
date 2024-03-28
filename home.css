@@ -1,4 +1,19 @@
 body{
   background:linear-gradient(to right, rgb(0, 36, 36), rgb(0, 20, 20),rgb(0, 9, 9))
 }
+#mission{
+  margin: 20px 550px;
+  text-align: justify;
+  font-size: 17px;
+  letter-spacing: 1px;
+  background-color: aqua;
+  border-radius: 50px;
+  padding: 60px 80px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+
+}
+
+
+
 
