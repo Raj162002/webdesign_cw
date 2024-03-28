@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to top, #05445e, black);
+    background-image: linear-gradient(to top, #05445e, black) !important;
 }
 .container {
     display: flex;
