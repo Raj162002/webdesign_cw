@@ -18,6 +18,13 @@ function previewview() {
     document.getElementById('previewButton').style.display = 'none';
 }
 
+document.getElementById('resetButton').addEventListener('click', function() {
+    document.getElementById('previewSection').style.display = 'none';
+    document.getElementById('submitButton').style.display = 'none';
+    document.getElementById('previewButton').style.display = 'block';
+    document.getElementById('feedback_form').reset();
+});
+
 function validateForm() {
     var satisfactionLevel = document.querySelector('input[name="feedback_3"]:checked');
     var recommendation = document.querySelector('input[name="feedback_4"]:checked');
@@ -57,6 +64,8 @@ function validateForm() {
     }
     return true;
 }
+
+
 
 
 
