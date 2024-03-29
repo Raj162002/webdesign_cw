@@ -5,6 +5,7 @@ label{
     width: 85%;
 
 }
+
 fieldset {
     background-color: #f5f4f1;
     
@@ -50,6 +51,7 @@ legend {
     padding-right: 0.5em;
     background-color: #189ab4;
     border-radius: 0.5cm;
+    color: white;
 }
 
 .buttons {
@@ -59,7 +61,7 @@ legend {
     font-size: 15px;
 }
 
-input[type="submit"],input[type="reset"] {
+input[type="submit"],input[type="reset"],input[type="button"] {
     padding: 10px 16px;
     margin: 0.5em;
     border-radius: 6px;
@@ -68,15 +70,19 @@ input[type="submit"],input[type="reset"] {
     font-weight: bold;
     border: none;
 }
-input[type="submit"]:hover,input[type="reset"]:hover {
+input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover {
     background-color: #05445e;
     color: #f5f4f1;
 }
 
 
-h1 {
+form h1 {
+    color: white;
+    background-color: #189ab4;
     text-align: center;
     margin-bottom: 1em;
+    border-radius: 0.2cm;
+    padding: 2px;
 }
 input[type="text"],textarea,input[type="email"] {
     padding: 1em;
@@ -88,4 +94,10 @@ input[type="text"],textarea,input[type="email"] {
     float: left;
 
 
+}
+input[type="submit"] {
+   display: none;
+}
+#previewSection{
+    display: none;
 }

@@ -54,20 +54,20 @@
                     <div class="eachfield" id="names">
                         <!-- For the first name -->
                         <label for="first_name">First name:-</label>
-                        <input type="text" name="first_name" id="first_name" size="20" placeholder="your first name" required autofocus onkeyup="checkforempty(this.form,first_name)">
+                        <input type="text" name="first_name" id="first_name" size="20" placeholder="your first name" autofocus oninput="validateForm('feedback_form','first_name')">
                     </div>
                     
                     
                     <div class="eachfield" id="names">
                         <!-- For the last name -->
                         <label for="last_name">Last name:-</label>
-                        <input type="text" name="last_name" id="last_name" size="20" placeholder="your last name" required>
+                        <input type="text" name="last_name" id="last_name" size="20" placeholder="your last name" required oninput="validateForm('feedback_form','last_name')">
                     </div>
                     
-                    <div class="eachfield" id="names">
+                    <div class="eachfield" id="email">
                         <!-- For the email -->
                         <label for="email">Email:-</label>
-                        <input type="email" name="email" id="email" size="20" placeholder="your email address" required>
+                        <input type="email" name="email" id="email" size="20" placeholder="your email address" required oninput="validateForm('feedback_form','email')">
                     </div>
                     
             </fieldset>
@@ -98,8 +98,8 @@
                     </div>
                 </div>
                 <div class="eachfield">
-                    <div class="radiobutton">
-                        <span class="radiotexts">How satisfied are you with Our services? Choose from 0 to 10,with 1 being "Not satisfied at all!" and 10 being "Extremely satisfied</span><br>
+                    <div class="radiobutton" id="satisfaction">
+                        <span class="radiotexts" id="satisfactiontext">How satisfied are you with Our services? Choose from 0 to 10,with 1 being "Not satisfied at all!" and 10 being "Extremely satisfied</span><br>
                         <input type="radio" name="feedback_3" id="1" value="1" required>
                         <label for="1">1</label>
                         <input type="radio" name="feedback_3" id="2" value="2" required>
@@ -124,8 +124,8 @@
                 </div>
                 
                 <div class="eachfield">
-                    <div class="radiobutton">
-                        <span class="radiotexts">Would you recommend our site to a friend?</span><br>
+                    <div class="radiobutton" id="recommendation">
+                        <span class="radiotexts" id="recommendationtext">Would you recommend our site to a friend?</span><br>
                         <input type="radio" name="feedback_4" id="yes" value="yes" required>
                         <label for="yes">Yes</label>
                         <input type="radio" name="feedback_4" id="no" value="no" required>
@@ -155,9 +155,14 @@
             </fieldset>
 
             <div class="buttons">
-                <input type="submit" name="button" value="Submit">
+                <input type="submit" id="submitButton" name="button" value="Submit">
                 <input type="reset" name="button" value="Reset">
+                <input type="button" id="previewButton" value="Preview" onclick="previewview()">
             </div>
+            <fieldset id="previewSection">
+                <legend>Preview</legend>
+            </fieldset>
+
         </form>
 
     </div>
@@ -178,7 +183,7 @@
         
         
     </div>
-<script src="feedback.js"></script>    
+<script src="feedback_2.js"></script>    
     
 </body>
 </html>

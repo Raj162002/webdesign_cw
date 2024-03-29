@@ -1,12 +1,15 @@
-function checkforempty(frm,val){
-    if(frm.val.value=="a"){
-        document.getElementById(val).style.display="flex";
-        document.getElementById(val).style.border="solid 2px red";
-        document.getElementById(val).scrollIntoView();
-        return false;
-    }
-    else{
-        return true;
-
-    };
+function validateForm(frm,val) {
+    let x = document.forms[frm][val].value;
+    if (x == "") {
+      alert("This field must be filled out");
+      return false;
+    } 
 }
+
+
+
+
+function validsubmit(){
+
+}
+
