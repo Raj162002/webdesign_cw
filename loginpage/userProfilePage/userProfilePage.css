@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to top, #05445e, black); 
+}
+.container {
+    position: relative; /* Ensure the container is a reference for absolute positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.modal{
+    
+    max-width: 50ch;
+    z-index: 1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(126, 194, 227, 0.2);
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px; /* Add margin to make space for the progress bar */
+
+
+    & > * {
+        margin: 0 0 0.5rem 0;
+    }
+
+}
+
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#submit-button:hover{
+    cursor: pointer;
+    background-color: #d49d30;
+}
+#skip-button:hover{
+    cursor: pointer;
+    background-color: #d49d30;
+}
+#skip-button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #daab4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+}
+#submit-button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #daab4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+
+.pop-up{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 100px;
+    padding-bottom: 80px;
+    padding-top: 75px;
+}
+
+#question-answer {
+    width: 400px; 
+    height: 30px; 
+    margin-top: 0.5rem; 
+    border-radius: 15px;
+    opacity: calc(0.4);
+}
+.form-group{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progress {
+    position: fixed; /* Make the progress bar fixed */
+    top: calc(50% + 150px); /* Position it vertically centered and adjusted */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -10%); /* Center it both horizontally and vertically */
+    width: 400px;
+    height: 20px;
+    background-color: #9cbab4;
+    z-index: 1; /* Ensure it's above other content */
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress-fill{
+    width: 50%;
+    height: 100%;
+    background: #009579;
+}
+.progress-text{
+    position: absolute;
+    top: 10%;
+    right: 5px;
+    transform: translate(-10%);
+    font: bold 14px 'Quicksand' , sans-serif;
+    color: white;
+}
+
+.input{
+    padding-bottom: 40px;
+}

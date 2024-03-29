@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #05445e, black);
+}
+#edu-pro {
+  text-align: center;
+  
+}
+
+
+.pop-up img{
+  height: 250;
+  width: 200;
+}
+
+#edu-pro h1 {
+  color: #daab4e;
+  font-size: 24px;
+  
+
+}
+
+a {
+  color: #b7dcec;
+}
+
+.container {
+  height: 500px;
+  width: 400px;
+  border-radius: 15px;
+  position: relative;
+  background: rgba(126, 194, 227, 0.2);
+  z-index: 2;
+
+
+}
+
+.log-in-button {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+
+}
+
+#log-in {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #daab4e;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 15px;
+  
+
+
+}
+
+#log-in:hover {
+  cursor: pointer;
+  background-color: #d49d30;
+}
+
+.text {
+  padding-left: 10px;
+}
+.text p {
+  color: white;
+}
+
+.pop-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+#data-collection {
+  margin-top: 20px;
+
+}
+
+#data-collection form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#data-collection label {
+  margin-bottom: 10px;
+}
+
+#data-collection input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.log-in-form {
+  padding-left: 10px;
+}
+
+#uname {
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  opacity: calc(0.4);
+}
+
+#pwrd {
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  opacity: calc(0.4);
+}
