@@ -100,4 +100,5 @@ input[type="submit"] {
 }
 #previewSection{
     display: none;
+    margin-bottom: 20px;
 }
