@@ -77,10 +77,8 @@ body{
     height: 100px;
     padding-bottom: 80px;
     padding-top: 75px;
-
-    
-
 }
+
 #question-answer {
     width: 400px; 
     height: 30px; 
@@ -117,4 +115,8 @@ body{
     transform: translate(-10%);
     font: bold 14px 'Quicksand' , sans-serif;
     color: white;
+}
+
+.input{
+    padding-bottom: 40px;
 }
