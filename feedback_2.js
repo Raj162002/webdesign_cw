@@ -11,7 +11,8 @@ function previewview() {
                     'Satisfaction Level: ' + satisfactionLevel + '<br>' +
                     'Would recommend: ' + recommendation;
 
-    document.getElementById('previewSection').innerHTML = preview;
+    document.getElementById('previewSection').innerHTML = "<legend>Preview</legend>"+ preview;
+    // document.getElementById('previewSection').innerHTML = preview;
     document.getElementById('previewSection').style.display = 'block';
     document.getElementById('submitButton').style.display = 'block';
     document.getElementById('previewButton').style.display = 'none';
