@@ -103,3 +103,8 @@ input[type="submit"] {
     display: none;
     margin-bottom: 20px;
 }
+#last_name_container,#first_name_container,#email_container{
+
+    padding: 10px;
+    border-radius: 2cm;
+}
