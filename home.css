@@ -9,20 +9,72 @@ body{
   background-color: aqua;
   border-radius: 50px;
   padding: 60px 80px;
-  /* padding-left: 100px;
-  padding-right: 100px; */
+  z-index: 0;
 
 }
-.bodyContainer{
-  padding-top: 100px;
-  padding-bottom: 90px;
-  background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('newcropbg.jpg');
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+#para{
+  color: rgb(223, 218, 218);
+  font-weight: bold;
 }
-.bodyContainer h1{
+#education{
+  margin: 20px 20px;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  color: white;
+  padding-left: 30px;
+
+}
+#education h2{
+  font-size: 80px;
+
+}
+#tiles{
+  margin:0;
+  padding:0;
+  font-family: poppins;
+  box-sizing: border-box;
+  color: white;
+  z-index: 0;
+}
+.wrapper{
+  padding: 10px 10%;
+
+}
+#card-area{
+  padding: 50px 0;
+}
+.box-area{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.box{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.box img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.overlay{
+  height: 0;
+  width: 100%;
+  background: linear-gradient(transparent, #1c1c1c 58%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
   text-align: center;
   font-size: 40px;
   color: #f5f4f1;
