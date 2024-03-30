@@ -10,6 +10,7 @@ body{
   opacity: 0.9;
   border-radius: 50px;
   padding: 60px 80px;
+  z-index: 0;
 
 }
 #para{
@@ -18,10 +19,14 @@ body{
 }
 #education{
   margin: 20px 20px;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-size: 40px;
+  letter-spacing: 3.5px;
   color: white;
   padding-left: 30px;
+
+}
+#education h2{
+  font-size: 80px;
 
 }
 #tiles{
@@ -30,6 +35,7 @@ body{
   font-family: poppins;
   box-sizing: border-box;
   color: white;
+  z-index: 0;
 }
 .wrapper{
   padding: 10px 10%;
