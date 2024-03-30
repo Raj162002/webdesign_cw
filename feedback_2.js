@@ -5,18 +5,31 @@ function previewview() {
         let email = document.forms['feedback_form']['email'].value;
         let firstName = document.forms['feedback_form']['first_name'].value;
         let lastName= document.forms['feedback_form']['last_name'].value;
+        let visting= document.querySelector('input[name="feedback_1"]:checked').value;
+        let useful= document.querySelector('input[name="feedback_2"]:checked').value;
 
         let preview =   'First Name: ' + firstName + '<br>' +
                         'Last Name: ' + lastName + '<br>' +
                         'Email: ' + email + '<br>' +
                         'Satisfaction Level: ' + satisfactionLevel + '<br>' +
                         'Would recommend: ' + recommendation;
-
+        if (visting!=null){
+            preview += '<br>' + 'First time visiting our site? : ' + visting;
+        }
+        if (useful!=null){
+            preview += '<br>' + 'Was the website informative and easy to navigate through? : ' + useful;
+        }
         document.getElementById('previewSection').innerHTML = "<legend>Preview</legend>"+ preview;
         document.getElementById('previewSection').style.display = 'block';
         document.getElementById('submitButton').style.display = 'block';
         document.getElementById('previewButton').style.display = 'none';
     }
+}
+function previewreset(){
+    document.getElementById('previewSection').style.display = 'none';
+    document.getElementById('submitButton').style.display = 'none';
+    document.getElementById('previewButton').style.display = 'block';
+
 }
 
 document.getElementById('resetButton').addEventListener('click', function() {
@@ -27,11 +40,11 @@ document.getElementById('resetButton').addEventListener('click', function() {
 });
 
 function validateForm() {
-    var firstName = document.forms['feedback_form']['first_name'].value;
-    var lastName = document.forms['feedback_form']['last_name'].value;
-    var email = document.forms['feedback_form']['email'].value;
-    var satisfactionLevel = document.querySelector('input[name="feedback_3"]:checked');
-    var recommendation = document.querySelector('input[name="feedback_4"]:checked');
+    let firstName = document.forms['feedback_form']['first_name'].value;
+    let lastName = document.forms['feedback_form']['last_name'].value;
+    let email = document.forms['feedback_form']['email'].value;
+    let satisfactionLevel = document.querySelector('input[name="feedback_3"]:checked');
+    let recommendation = document.querySelector('input[name="feedback_4"]:checked');
 
     document.getElementById('first_name_container').style.border = '';
     document.getElementById('last_name_container').style.border = '';
@@ -74,7 +87,14 @@ function validateForm() {
     }
     return true;
 }
-
+function suggestarea(){
+    let feedback_2=document.querySelector('input[name="feedback_2"]:checked').value;
+    if(feedback_2=="no"){
+        document.getElementById('suggestion').style.display = 'block';
+    }else{
+        document.getElementById('suggestion').style.display = 'none';
+    }
+}
 
 
 

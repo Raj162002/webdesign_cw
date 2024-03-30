@@ -32,6 +32,7 @@ hr{
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 1;
 }
 
 .logo{                /*css for the size of the logo*/
@@ -85,6 +86,7 @@ hr{
     background-color: #189ab4;
     justify-content: space-between;
     padding: 5px 50px;
+    margin-top: 10px;
 }
 
 .foot_text{
@@ -112,7 +114,6 @@ hr{
     padding-top: 100px;
     padding-bottom: 90px;
     background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('newcropbg.jpg');
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
