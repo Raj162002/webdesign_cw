@@ -36,6 +36,8 @@ function validateForm() {
     document.getElementById('first_name_container').style.border = '';
     document.getElementById('last_name_container').style.border = '';
     document.getElementById('email_container').style.border = '';
+    document.getElementById('satisfaction').style.border = '';
+    document.getElementById('recommendation').style.border = '';
 
     if(firstName == "") {
         alert('Please enter your first name.');
