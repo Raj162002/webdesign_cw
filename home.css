@@ -40,7 +40,7 @@ body{
 }
 .box-area{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
@@ -71,7 +71,7 @@ body{
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   transition: height 0.5s;
 
 }
@@ -83,11 +83,11 @@ body{
   font-size: 30px;
   letter-spacing: 2px;
 }
-.overlay a{
+.linkoverlay{
   margin-top: 10px;
   color: #262626;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   background: #fff;
   border-radius: 50px;
   text-align: center;
@@ -98,7 +98,7 @@ body{
   transform: scale(1.2);
 }
 .box:hover .overlay{
-  height: 100%;
+  height: 170%;
 }
 
 
