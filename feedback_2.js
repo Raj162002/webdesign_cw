@@ -18,6 +18,12 @@ function previewview() {
         document.getElementById('previewButton').style.display = 'none';
     }
 }
+function previewreset(){
+    document.getElementById('previewSection').style.display = 'none';
+    document.getElementById('submitButton').style.display = 'none';
+    document.getElementById('previewButton').style.display = 'block';
+
+}
 
 document.getElementById('resetButton').addEventListener('click', function() {
     document.getElementById('previewSection').style.display = 'none';
@@ -27,11 +33,11 @@ document.getElementById('resetButton').addEventListener('click', function() {
 });
 
 function validateForm() {
-    var firstName = document.forms['feedback_form']['first_name'].value;
-    var lastName = document.forms['feedback_form']['last_name'].value;
-    var email = document.forms['feedback_form']['email'].value;
-    var satisfactionLevel = document.querySelector('input[name="feedback_3"]:checked');
-    var recommendation = document.querySelector('input[name="feedback_4"]:checked');
+    let firstName = document.forms['feedback_form']['first_name'].value;
+    let lastName = document.forms['feedback_form']['last_name'].value;
+    let email = document.forms['feedback_form']['email'].value;
+    let satisfactionLevel = document.querySelector('input[name="feedback_3"]:checked');
+    let recommendation = document.querySelector('input[name="feedback_4"]:checked');
 
     document.getElementById('first_name_container').style.border = '';
     document.getElementById('last_name_container').style.border = '';
