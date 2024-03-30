@@ -87,7 +87,14 @@ function validateForm() {
     }
     return true;
 }
-
+function suggestarea(){
+    let feedback_2=document.querySelector('input[name="feedback_2"]:checked').value;
+    if(feedback_2=="no"){
+        document.getElementById('suggestion').style.display = 'block';
+    }else{
+        document.getElementById('suggestion').style.display = 'none';
+    }
+}
 
 
 
