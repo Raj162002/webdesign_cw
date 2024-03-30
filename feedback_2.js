@@ -5,13 +5,20 @@ function previewview() {
         let email = document.forms['feedback_form']['email'].value;
         let firstName = document.forms['feedback_form']['first_name'].value;
         let lastName= document.forms['feedback_form']['last_name'].value;
+        let visting= document.querySelector('input[name="feedback_1"]:checked').value;
+        let useful= document.querySelector('input[name="feedback_2"]:checked').value;
 
         let preview =   'First Name: ' + firstName + '<br>' +
                         'Last Name: ' + lastName + '<br>' +
                         'Email: ' + email + '<br>' +
                         'Satisfaction Level: ' + satisfactionLevel + '<br>' +
                         'Would recommend: ' + recommendation;
-
+        if (visting!=null){
+            preview += '<br>' + 'First time visiting our site? : ' + visting;
+        }
+        if (useful!=null){
+            preview += '<br>' + 'Was the website informative and easy to navigate through? : ' + useful;
+        }
         document.getElementById('previewSection').innerHTML = "<legend>Preview</legend>"+ preview;
         document.getElementById('previewSection').style.display = 'block';
         document.getElementById('submitButton').style.display = 'block';
