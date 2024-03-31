@@ -45,6 +45,7 @@
 }
 .manual-btn{
     border: 2px solid #40d3dc;
+    color: white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -90,12 +91,12 @@
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background: #40d3dc;
 }
-#radio2:checked ~ .navigation-auto .auto-btn1{
+#radio2:checked ~ .navigation-auto .auto-btn2{
     background: #40d3dc;
 }
-#radio3:checked ~ .navigation-auto .auto-btn1{
+#radio3:checked ~ .navigation-auto .auto-btn3{
     background: #40d3dc;
 }
-#radio4:checked ~ .navigation-auto .auto-btn1{
+#radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40d3dc;
 }
