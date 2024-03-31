@@ -75,6 +75,9 @@ input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover 
     background-color: #05445e;
     color: #f5f4f1;
 }
+#email_container label{
+    padding-right: 2em;
+}
 
 
 form h1 {
