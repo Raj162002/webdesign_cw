@@ -108,8 +108,8 @@
 .content h1{
     padding: 1rem;
     margin-bottom: 10px;
+    font-size: 35px;
 }
-
 .firsttopic{
     border-radius: 10px;
     background-color: rgb(71, 241, 19);
@@ -121,9 +121,6 @@
     padding-left: 40px;
     height: 27em;
 }
-.firsttopic h1{
-    font-size: 45px;
-}
 .secondtopic{
     background-color: rgb(36, 109, 172);
     font-size: 25px;
@@ -131,9 +128,7 @@
     border-radius: 10px;
     width: 50%;
     margin-bottom: 20px;
-}
-.secondtopic h1{
-    font-size: 45px;
+    margin-right: 20px;
 }
 .content li{
     padding: 15px;
