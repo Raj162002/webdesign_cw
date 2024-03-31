@@ -1,10 +1,10 @@
 .contentbody{
-    margin-top: 300px;
+    /* margin-top: 300px; */
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 450px;
     /* background: #23e3c9 ;*/
 } 
 .slider{
