@@ -100,3 +100,41 @@
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40d3dc;
 }
+
+.content{
+    padding-top: 100px;
+    display: flex;
+}
+.content h1{
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.firsttopic{
+    border-radius: 10px;
+    background-color: rgb(71, 241, 19);
+    font-size: 25px;
+    margin-left: 40px;
+    width:50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    height: 27em;
+}
+.firsttopic h1{
+    font-size: 45px;
+}
+.secondtopic{
+    background-color: rgb(36, 109, 172);
+    font-size: 25px;
+    padding-left: 40px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.secondtopic h1{
+    font-size: 45px;
+}
+.content li{
+    padding: 15px;
+}
