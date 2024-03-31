@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const submitButton = document.getElementById('submit-button');
     const questionLabel = document.getElementById('Question');
     const questionAnswerInput = document.getElementById('question-answer');
+    const heading = document.getElementById('heading');
     
     // Define your question bank
     const questionBank = [{
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         heading: "Step 1 Personal Details | Question 5/5",
         number: "4",
         question: "Enter password: "
-    }
+    },
 
     ];
     
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Function to set the question
     function setQuestion(index) {
+        heading.textContent = questionBank[index].heading;
         questionLabel.textContent = questionBank[index].question;
         questionAnswerInput.value = ''; // Clear input field
     }
@@ -50,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function submitAnswer() {
         const answer = questionAnswerInput.value;
         let storeObject = new Map;
-        // Store the answer somewhere (you can replace this with your storage mechanism)
+        // Store the answer 
         let store = storeObject.set(questionBank[currentQuestionIndex].question, answer)
         console.log("User's answer:", answer);
         // Increment the progress bar (assuming each question is worth 33.33%)
