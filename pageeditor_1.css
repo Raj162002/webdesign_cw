@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    background-image: linear-gradient(to right, #daa520,rgb(0, 36, 36));
+    /* background-repeat: no-repeat; */
+    font-size: 15px;
+    font-family: 'PT Serif', serif;   /*font*/
+    margin: 80px 300px;
+}
+
+.page-edit-contents {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.student-info {
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.student-info h1 {
+    padding-bottom: 20px;
+}
+
+.student-info h3{
+    color: #f6e2ac;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.content-info {
+    background-color: white;
+    margin: 0 30px 30px 30px;
+    opacity: 0.9;
+    border-radius: 15px;
+    padding: 25px 50px;
+}
+
+.info {
+    padding: 20px 30px;
+}
+
+ul {
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.break{
+    background-color: black;
+}
+
+.button {
+    padding: 5px;
+    font-family: 'PT Serif', serif;   /*font*/
+    width: 250px;
+    background-color: #f6e2ac;
+    border: 1px solid #cab372;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 475px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.button:hover {
+    font-family: 'PT Serif', serif;   /*font*/
+    background-color: rgb(56, 186, 186);
+}
+
+svg {
+    width: 20px;
+    color: black;
+    padding-right: 3px;
+}
