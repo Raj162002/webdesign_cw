@@ -6,7 +6,7 @@
 
 /*Css of the body*/
 body{
-    background-color:#d4f1f4  ;  
+    background:linear-gradient(to right, #1a3e52,rgb(24, 85, 85))  ;  
     background-repeat: no-repeat;
     font-size: 15px;
     font-family: 'Poppins', serif;   /*font*/

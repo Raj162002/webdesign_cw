@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 450px;
-    /* background: #23e3c9 ;*/
 } 
 .slider{
     width: 1400px;
@@ -15,6 +14,7 @@
     overflow: hidden;
 
 }
+
 .slides{
     width: 500%;
     height: 500px;
@@ -112,7 +112,7 @@
 }
 .firsttopic{
     border-radius: 10px;
-    background-color: rgb(71, 241, 19);
+    background: linear-gradient(to right, #163132,#146445);
     font-size: 25px;
     margin-left: 40px;
     width:50%;
@@ -120,15 +120,23 @@
     margin-right: 20px;
     padding-left: 40px;
     height: 20em;
+    color: #0b76f0;
+}
+.firsttopic h1{
+    color:#cae41f;
+}
+.secondtopic h1{
+    color:#cae41f;
 }
 .secondtopic{
-    background-color: rgb(36, 109, 172);
+    background: linear-gradient(to right, #146445,rgb(89, 10, 145));
     font-size: 25px;
     padding-left: 40px;
     border-radius: 10px;
     width: 50%;
     margin-bottom: 20px;
     margin-right: 20px;
+    color: #0b76f0;
 }
 .content li{
     padding: 15px;
