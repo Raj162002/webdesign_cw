@@ -1,20 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 img {
     max-width: 100%;
     display: block;
 }
 
-body{
-    background-image: linear-gradient(to right, #daa520,rgb(0, 36, 36));
+body .bodycontainer{
+    background-image: linear-gradient(to right, #2096da,rgb(36, 106, 106));
     /* background-repeat: no-repeat; */
     font-size: 15px;
     font-family: 'PT Serif', serif;   /*font*/
     margin: 80px 300px;
+    padding-top: 80px;
 }
 
 .page-edit-contents {
@@ -24,6 +20,7 @@ body{
     justify-content: center;
     background-color: black;
     border-radius: 15px;
+    margin: 0 300px;
 }
 
 .student-info {
@@ -37,7 +34,7 @@ body{
 }
 
 .student-info h3{
-    color: #f6e2ac;
+    color: #09caf5;
     font-weight: 500;
     padding-bottom: 10px;
 }
