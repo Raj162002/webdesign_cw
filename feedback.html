@@ -47,7 +47,7 @@
 
     <!-- The form part starts here -->
     <div class="form">
-        <form id="feedback_form" name="feedback_form" action="mailto:rajeevan.20230018@iit.ac.lk" method="post" onchange="previewreset()" >
+        <form id="feedback_form" name="feedback_form" action="mailto:rajeevan.20230018@iit.ac.lk" method="post" onchange="previewreset()" enctype="text/plain">
             <h1>Feedback form</h1>
             <h2>* Required ones</h2>
             <fieldset class="fieldsetcontent">
@@ -77,17 +77,17 @@
                 <div class="radiobutton" >
                     <div class="eachfield">
                     <div class="radiotexts"> Is this your first time visiting our site?</div>
-                    <input type="radio" name="feedback_1" id="yes_t1" value="yes" required>
+                    <input type="radio" name="feedback_1" id="yes_t1" value="yes">
                     <label for="yes">Yes</label>
-                    <input type="radio" name="feedback_1" id="no_t1" value="no" required>
+                    <input type="radio" name="feedback_1" id="no_t1" value="no">
                     <label for="no">No</label>
                     </div>
 
                     <div class="eachfield">
                     <div class="radiotexts">Was this website informative and easy to navigate through?</div>
-                    <input type="radio" name="feedback_2" id="yes_2" value="yes" onchange="suggestarea()" required>
+                    <input type="radio" name="feedback_2" id="yes_2" value="yes" onchange="suggestarea()">
                     <label for="yes">Yes</label>
-                    <input type="radio" name="feedback_2" id="no_2" value="no" onchange="suggestarea()" required>
+                    <input type="radio" name="feedback_2" id="no_2" value="no" onchange="suggestarea()">
                     <label for="no">No</label>
                     </div>
 
@@ -95,7 +95,7 @@
                 <div class="eachfield" id="suggestion">
                     <div class="textarea">
                         <label for="improvements">If no suggest any areas to improve</label><br>
-                        <textarea name="comment" id="comment" cols="20" rows="5" placeholder="your feedback here" required></textarea>
+                        <textarea name="comment" id="comment" cols="20" rows="5" placeholder="your feedback here"></textarea>
                     </div>
                 </div>
                 <div class="eachfield">
@@ -140,7 +140,7 @@
                 <div class="eachfield">
                     <label for="getupdates">Would you like to get updates on our latest products and services?</label><br>
                     <div class="markdown">
-                    <select name="getupdates" id="getupdates" required>
+                    <select name="getupdates" id="getupdates">
                         <option value="yes" selected>Yes via email</option>
                         <option value="no">No</option>
                     </select>
@@ -150,13 +150,13 @@
                 
                 <div class="textarea">
                     <label for="improvements">Any other comments or suggestions?</label><br>
-                    <textarea name="comment" id="comment" cols="20" rows="5" placeholder="your feedback here" required></textarea>
+                    <textarea name="comment" id="comment" cols="20" rows="5" placeholder="your feedback here"></textarea>
                 </div>
                 </div>
             </fieldset>
 
             <div class="buttons">
-                <input type="submit" id="submitButton" name="button" value="Submit">
+                <input type="submit" id="submitButton" name="button" value="Submit" onclick="makecommentvisible()">
                 <input type="reset" id="resetButton" name="button" value="Reset">
                 <input type="button" id="previewButton" value="Preview" onclick="previewview()">
             </div>

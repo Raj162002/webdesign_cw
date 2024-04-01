@@ -5,8 +5,8 @@ function previewview() {
         let email = document.forms['feedback_form']['email'].value;
         let firstName = document.forms['feedback_form']['first_name'].value;
         let lastName= document.forms['feedback_form']['last_name'].value;
-        let visting= document.querySelector('input[name="feedback_1"]:checked').value;
-        let useful= document.querySelector('input[name="feedback_2"]:checked').value;
+        let visting= document.querySelector('input[name="feedback_1"]:checked');
+        let useful= document.querySelector('input[name="feedback_2"]:checked');
 
         let preview =   'First Name: ' + firstName + '<br>' +
                         'Last Name: ' + lastName + '<br>' +
@@ -14,10 +14,10 @@ function previewview() {
                         'Satisfaction Level: ' + satisfactionLevel + '<br>' +
                         'Would recommend: ' + recommendation;
         if (visting!=null){
-            preview += '<br>' + 'First time visiting our site? : ' + visting;
+            preview += '<br>' + 'First time visiting our site? : ' + visting.value;
         }
         if (useful!=null){
-            preview += '<br>' + 'Was the website informative and easy to navigate through? : ' + useful;
+            preview += '<br>' + 'Was the website informative and easy to navigate through? : ' + useful.value;
         }
         document.getElementById('previewSection').innerHTML = "<legend>Preview</legend>"+ preview;
         document.getElementById('previewSection').style.display = 'block';
@@ -94,6 +94,13 @@ function suggestarea(){
     }else{
         document.getElementById('suggestion').style.display = 'none';
     }
+}
+//Making this so that the comment is visible and form gets submitted without any issue
+function makecommentvisible(){
+    document.getElementById('suggestion').style.display = 'block';
+    document.getElementById('suggestion').readOnly = true;
+
+
 }
 
 
