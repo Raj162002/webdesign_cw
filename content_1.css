@@ -151,8 +151,9 @@
     
 }
 #thequote{
-    font-size: 30px;
+    font-size: 35px;
     padding: 100px;
+    font-weight: bolder;
 }
 #quoteimg img{
     border-radius: 20px;
@@ -160,4 +161,5 @@
 hr{
     margin-left: 35px;
     margin-right: 20px;
+    background-color: blue;
 } 
