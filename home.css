@@ -2,6 +2,7 @@ body{
   background:linear-gradient(to right, rgb(0, 36, 36), rgb(0, 20, 20),rgb(0, 9, 9))
 }
 #mission{
+  width: 30em;
   margin: 20px 550px;
   text-align: justify;
   font-size: 20px;
@@ -88,6 +89,9 @@ body{
   font-family: bebas neue;
   font-size: 30px;
   letter-spacing: 2px;
+}
+.overlay p{
+  padding-top: 5px;
 }
 .linkoverlay{
   margin-top: 10px;
