@@ -1,5 +1,5 @@
 .contentbody{
-    /* margin-top: 300px; */
+    margin: 0 40px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -133,3 +133,31 @@
 .content li{
     padding: 15px;
 }
+.quote{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #40d3dc;
+    margin: 30px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+#quoteimg{
+    margin-right: 100px;
+    padding: 0 20px;
+    padding-top: 35px;
+    margin-left: 40px;
+    
+}
+#thequote{
+    font-size: 30px;
+    padding: 100px;
+}
+#quoteimg img{
+    border-radius: 20px;
+}
+hr{
+    margin-left: 35px;
+    margin-right: 20px;
+} 
