@@ -33,6 +33,7 @@ hr{
     justify-content: space-between;
     position: fixed;
     z-index: 1;
+    top: 0;
 }
 
 .logo{                /*css for the size of the logo*/

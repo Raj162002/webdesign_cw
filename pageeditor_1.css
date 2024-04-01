@@ -1,16 +1,19 @@
-
 img {
     max-width: 100%;
     display: block;
 }
 
-body .bodycontainer{
-    background-image: linear-gradient(to right, #2096da,rgb(36, 106, 106));
-    /* background-repeat: no-repeat; */
+body {
+    background-image: linear-gradient(to right, #2096da,rgb(36, 106, 106)) !important;
+    z-index: 0;
+}
+
+.pageeditor{ 
+    background-repeat: no-repeat;
     font-size: 15px;
     font-family: 'PT Serif', serif;   /*font*/
-    margin: 80px 300px;
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    z-index: 0;
 }
 
 .page-edit-contents {
@@ -20,7 +23,7 @@ body .bodycontainer{
     justify-content: center;
     background-color: black;
     border-radius: 15px;
-    margin: 0 300px;
+    margin: 10px 300px;
 }
 
 .student-info {
@@ -86,4 +89,7 @@ svg {
     width: 20px;
     color: black;
     padding-right: 3px;
+}
+.middlepage{
+    margin-top: 80px;
 }
