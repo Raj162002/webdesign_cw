@@ -119,3 +119,6 @@ input[type="submit"] {
 #suggestion{
     display: none;
 }
+.form h2{
+    color: white;
+}
