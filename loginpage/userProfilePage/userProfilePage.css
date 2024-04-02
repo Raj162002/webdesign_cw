@@ -1,26 +1,29 @@
 body{
     margin: 0;
-    background-image: linear-gradient(to top, #05445e, black); 
+    background-image: linear-gradient(to top, #05445e, black) ; 
 }
 .container {
-    position: relative; /* Ensure the container is a reference for absolute positioning */
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 89vh;
 }
 .modal{
     
-    max-width: 50ch;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 90ch;
     z-index: 1;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: rgba(126, 194, 227, 0.2);
     border-radius: 15px;
-    width: 500px;
+    width: 400px;
     height: 300px;
-    margin-bottom: 50px; /* Add margin to make space for the progress bar */
-
+    margin-bottom: 50px;
 
     & > * {
         margin: 0 0 0.5rem 0;
@@ -53,6 +56,7 @@ body{
     color: white;
     font-size: 16px;
     border-radius: 15px;
+    transform: translate(20%, 230%);
 }
 #submit-button{
     padding-left: 30px;
@@ -64,6 +68,7 @@ body{
     color: white;
     font-size: 16px;
     border-radius: 15px;
+    transform: translate(-20%, 230%);
 }
 
 
@@ -72,34 +77,32 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 400px;
-    height: 100px;
-    padding-bottom: 35px;
+    align-items: center; 
+    justify-content: center;
+    width: 400px !important;
+    height: 100px !important;
     padding-top: 75px;
 }
 
 #question-answer {
-    width: 400px; 
-    height: 30px; 
-    margin-top: 0.5rem; 
+    width: 350px; 
+    height: 30px;
+    margin-top: 0.5rem;
     border-radius: 15px;
-    opacity: calc(0.4);
-}
-.form-group{
-    display: flex;
-    justify-content: flex-end;
+    opacity: 0.4;
+    
 }
 
+
 .progress {
-    position: fixed; /* Make the progress bar fixed */
-    top: calc(50% + 150px); /* Position it vertically centered and adjusted */
-    left: 50%; /* Center it horizontally */
-    transform: translate(-50%, -10%); /* Center it both horizontally and vertically */
+    position: fixed; 
+    top: calc(50% + 150px); 
+    left: 50%; 
+    transform: translate(-50%, 50%); 
     width: 400px;
     height: 20px;
     background-color: #9cbab4;
-    z-index: 1; /* Ensure it's above other content */
+    z-index: 1; 
     border-radius: 5px;
     overflow: hidden;
 }
@@ -118,8 +121,20 @@ body{
 }
 
 .input{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
     padding-bottom: 40px;
+    
 }
 #heading{
     color: white;
+    transform: translate(5%, 25% );
 }
+
+.foot{
+    bottom: 0 !important;
+}
+
+
