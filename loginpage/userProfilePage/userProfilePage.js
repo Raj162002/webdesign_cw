@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const questionAnswerInput = document.getElementById('question-answer');
     const heading = document.getElementById('heading');
     
-    // Define your question bank
+   
     const questionBank = [{
         heading: "Step 1 Personal Details | Question 1/6",
         number: "1",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
         heading: "Step 1 Personal Details | Question 4/6",
-        number: "3",
+        number: "4",
         question: "Enter email: ",
         type: "email"
 
@@ -88,19 +88,19 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
         heading: "Step 3 Contact details | Question 2/4",
-        number: "12",
+        number: "13",
         question: "Work place address (if applicable): ",
         type: "text"
     },
     {
         heading: "Step 3 Contact details | Question 3/4",
-        number: "13",
+        number: "14",
         question: "Telephone number: ",
         type: "tel"
     },
     {
         heading: "Step 3 Contact details | Question 4/4",
-        number: "14",
+        number: "15",
         question: "Home address: ",
         type: "text"
     }
@@ -158,14 +158,13 @@ document.addEventListener("DOMContentLoaded", function() {
         progressText.textContent = `${percentage.toFixed(0)}%`;
         progressFill.style.width = `${percentage.toFixed(0)}%`;
         if (progressFill.style.width == "100%"){
-            console.log("test")
             progress.style.display = "none";
             userProfileDisplay.style.display = "block";
-
-
         }
     }
     
     // Initialize the first question
     setQuestion(currentQuestionIndex);
+
+    
 });

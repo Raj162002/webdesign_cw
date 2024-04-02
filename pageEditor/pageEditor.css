@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: orange; 
+}
+.page-top-heading{
+    text-align: center;
+}
+.student-details,
+.coursework-details {
+    background-image: linear-gradient(to top, orange, black);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+        
+ol {
+    margin: 0;
+}
