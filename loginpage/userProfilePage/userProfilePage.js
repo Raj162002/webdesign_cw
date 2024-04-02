@@ -153,12 +153,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const progressText = document.querySelector('.progress-text');
         const progressFill = document.querySelector('.progress-fill');
         const progress = document.querySelector('.progress');
+        const userProfileDisplay = document.querySelector('.user-profile-display');
         const percentage = ((currentQuestionIndex + 1) / questionBank.length) * 100;
         progressText.textContent = `${percentage.toFixed(0)}%`;
         progressFill.style.width = `${percentage.toFixed(0)}%`;
         if (progressFill.style.width == "100%"){
             console.log("test")
             progress.style.display = "none";
+            userProfileDisplay.style.display = "block";
+
 
         }
     }
