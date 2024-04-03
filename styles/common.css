@@ -114,7 +114,7 @@ hr{
 .bodyContainer{
     padding-top: 100px;
     padding-bottom: 90px;
-    background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('newcropbg.jpg');
+    background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('/images/newcropbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
