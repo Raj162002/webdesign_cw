@@ -112,7 +112,7 @@
 }
 .firsttopic{
     border-radius: 10px;
-    background: linear-gradient(to right, #163132,#146445);
+    background: #2fe39e;
     font-size: 25px;
     margin-left: 40px;
     width:50%;
@@ -120,23 +120,23 @@
     margin-right: 20px;
     padding-left: 40px;
     height: 20em;
-    color: #0b76f0;
+    color: #010408;
 }
 .firsttopic h1{
-    color:#cae41f;
+    color:#057078;
 }
 .secondtopic h1{
     color:#cae41f;
 }
 .secondtopic{
-    background: linear-gradient(to right, #146445,rgb(89, 10, 145));
+    background: #d2a00b;
     font-size: 25px;
     padding-left: 40px;
     border-radius: 10px;
     width: 50%;
     margin-bottom: 20px;
     margin-right: 20px;
-    color: #0b76f0;
+    color: #020b15;
 }
 .content li{
     padding: 15px;

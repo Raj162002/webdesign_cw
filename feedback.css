@@ -10,13 +10,12 @@ fieldset {
     background-color: #f5f4f1;
     
 }
-#names label {
-    /* float: left; */
+/* #names label {
     width: 25%;
     margin-right: 0.2cm;
     padding-top: 0.2cm;
     font-weight: bold;
-}
+} */
 #feedback label{
     margin-right: 0.2cm;
     margin-right: 0.2cm;
