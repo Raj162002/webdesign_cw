@@ -116,14 +116,14 @@ document.addEventListener("DOMContentLoaded", function() {
         // Store the answer 
         let store = storeObject.set(questionBank[currentQuestionIndex].question, answer)
         console.log("User's answer:", answer);
-        // Increment the progress bar (assuming each question is worth 33.33%)
+        // Increment the progress bar 
         updateProgress();
         // Display the next question or close the modal if all questions have been answered
         currentQuestionIndex++;
         if (currentQuestionIndex < questionBank.length) {
             setQuestion(currentQuestionIndex);
         } else {
-            modal.close(); // Close the modal if all questions have been answered
+            modal.close(); 
         }
     }
     
@@ -155,9 +155,4 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Initialize the first question
     setQuestion(currentQuestionIndex);
-
-    
-
-
-
 });

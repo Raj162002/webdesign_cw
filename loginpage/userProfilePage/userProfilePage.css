@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 100vh;
 }
 .modal{
     position: fixed; 
@@ -134,7 +134,8 @@ body{
     bottom: 0 !important;
 }
 
-.step1, .step2, .step3{
+
+/* .step1, .step2, .step3{
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: #009579;
@@ -144,5 +145,21 @@ body{
     height: 300px;
     
 
+} */
+.user-profile-display {
+    display: none; /* Initially hide the user profile display */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: white; /* Set background color */
+    border-radius: 15px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    z-index: 2; /* Ensure it's above the modal */
+    margin-top: 30px;
 }
-
+.foot{
+    bottom: 100px;
+}
