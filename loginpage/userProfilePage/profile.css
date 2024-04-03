@@ -135,29 +135,19 @@ body{
 }
 
 
-/* .step1, .step2, .step3{
-    display: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: #009579;
-    background-color: #009579;
-    z-index: 1;
-    width: 400px;
-    height: 300px;
-    
-
-} */
 .user-profile-display {
-    display: none; /* Initially hide the user profile display */
+    display: none; 
+    color: white;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 20px;
-    background-color: white; /* Set background color */
-    border-radius: 15px; /* Add border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    z-index: 2; /* Ensure it's above the modal */
+    background-color: rgba(126, 194, 227, 0.2);;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    z-index: 2; 
     margin-top: 30px;
 }
 .foot{
