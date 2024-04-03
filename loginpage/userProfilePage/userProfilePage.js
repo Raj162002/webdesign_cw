@@ -8,14 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
     
    
     const questionBank = [{
-        heading: "Step 1 Personal Details | Question 1/6",
+        heading: "Step 1 Personal Details | Question 1/3",
         number: "1",
-        question: "Enter your name: ",
+        question: "Enter name: ",
         type: "text"
 
     },
     {
-        heading: "Step 1 Personal Details | Question 2/6",
+        heading: "Step 1 Personal Details | Question 2/3",
         number: "2",
         question: "Enter surname: ",
         type: "text"
@@ -23,89 +23,79 @@ document.addEventListener("DOMContentLoaded", function() {
         
     },
     {
-        heading: "Step 1 Personal Details | Question 3/6",
+        heading: "Step 1 Personal Details | Question 3/4",
+        number: "3",
+        question: "Enter age: ",
+        type: "text"
+    },
+    {
+        heading: "Step 1 Personal Details | Question 4/4",
         number: "3",
         question: "Enter username: ",
         type: "text"
     },
     {
-        heading: "Step 1 Personal Details | Question 4/6",
-        number: "4",
-        question: "Enter email: ",
-        type: "email"
-
-
-    },
-    {
-        heading: "Step 1 Personal Details | Question 5/6",
-        number: "5",
-        question: "Enter password: ",
-        type: "password"
-
-    },
-    {
-        heading: "Step 1 Personal Details | Question 6/6",
-        number: "6",
-        question: "Enter password: ",
-        type: "password"
-    },
-    {
         heading: "Step 2 Educational qualifications | Question 1/5 ",
-        number: "7",
+        number: "4",
         question: "Areas of study: ",
         type: "text"
 
     },
     {
         heading: "Step 2 Educational qualifications | Question 2/5",
-        number: "8",
+        number: "5",
         question: "Highest degree: ",
         type: "text" 
     },
     {
         heading:"Step 2 Educational qualifications | Question 3/5",
-        number: "9",
+        number: "6",
         question: "University/Insitution: ",
         type: "text"
     },
     {
         heading: "Step 2 Educational qualifications | Question 4/5",
-        number: "10",
+        number: "7",
         question: "Completion year: ",
         type: "text"
     },
     {
         heading: "Step 2 Educational qualifications | Question 5/5",
-        number: "11",
+        number: "8",
         question: "Country: ",
         type: "text"
     },
     {
-        heading: "Step 3 Contact details | Question 1/4",
-        number: "12",
+        heading: "Step 3 Contact details | Question 1/5",
+        number: "9",
         question: "Employee status (if applicable): ",
         type: "text"
     },
     {
-        heading: "Step 3 Contact details | Question 2/4",
-        number: "13",
+        heading: "Step 3 Contact details | Question 2/5",
+        number: "10",
         question: "Work place address (if applicable): ",
         type: "text"
     },
     {
-        heading: "Step 3 Contact details | Question 3/4",
-        number: "14",
+        heading: "Step 3 Contact details | Question 3/5",
+        number: "11",
         question: "Telephone number: ",
         type: "tel"
     },
     {
-        heading: "Step 3 Contact details | Question 4/4",
-        number: "15",
+        heading: "Step 3 Contact details | Question 4/5",
+        number: "12",
         question: "Home address: ",
         type: "text"
+    },
+    {
+        heading: "Step 3 Contact details | Question 5/5",
+        number: "13",
+        question: "Enter email: ",
+        type: "email"
     }
 
-    
     ];
     
     let currentQuestionIndex = 0;
@@ -167,4 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setQuestion(currentQuestionIndex);
 
     
+
+
+
 });

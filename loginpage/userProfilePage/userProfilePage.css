@@ -7,10 +7,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 200vh;
 }
 .modal{
-    
     position: fixed; 
     top: 50%; 
     left: 50%; 
@@ -24,11 +23,6 @@ body{
     width: 400px;
     height: 300px;
     margin-bottom: 50px;
-
-    & > * {
-        margin: 0 0 0.5rem 0;
-    }
-
 }
 
 
@@ -140,8 +134,15 @@ body{
     bottom: 0 !important;
 }
 
-.user-profile-display{
+.step1, .step2, .step3{
     display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: #009579;
+    background-color: #009579;
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+    
 
 }
 
