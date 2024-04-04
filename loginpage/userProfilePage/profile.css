@@ -149,6 +149,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     z-index: 2; 
     margin-top: 30px;
+    font-family: 'poppins', serif;
 }
 .foot{
     bottom: 100px;
