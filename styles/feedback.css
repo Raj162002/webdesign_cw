@@ -1,0 +1,117 @@
+.form {
+    padding-top: 100px; /* padding from the top to get this below the nav bar */
+}
+label{
+    width: 85%;
+
+}
+
+fieldset {
+    background-color: #f5f4f1;
+    
+}
+#feedback label{
+    margin-right: 0.2cm;
+    margin-right: 0.2cm;
+    padding-top: 0.2cm;
+    font-weight: bold;
+
+}
+.text1{
+    text-align: center;
+}
+fieldset {
+    padding: 1em; 
+    border-radius: 1cm;
+    margin-bottom: 20px;
+    
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.eachfield {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #189ab4;
+    border-radius: 0.5cm;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 15px;
+}
+
+input[type="submit"],input[type="reset"],input[type="button"] {
+    padding: 10px 16px;
+    margin: 0.5em;
+    border-radius: 6px;
+    background-color: #189ab4;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover {
+    background-color: #05445e;
+    color: #f5f4f1;
+}
+#email_container label{
+    padding-right: 2em;
+}
+
+
+form h1 {
+    color: white;
+    background-color: #189ab4;
+    text-align: center;
+    margin-bottom: 1em;
+    border-radius: 0.2cm;
+    padding: 2px;
+}
+input[type="text"],textarea,input[type="email"] {
+    padding: 1em;
+    background-color: #84d5e5;
+    border-radius: 0.2cm;
+
+}
+#additionalfield .eachfield label{
+    float: left;
+
+
+}
+input[type="submit"] {
+   display: none;
+}
+#previewSection{
+    display: none;
+    margin-bottom: 20px;
+    font-size: medium;
+    
+}
+#last_name_container,#first_name_container,#email_container,#satisfaction,#recommendation{
+
+    padding: 10px;
+    border-radius: 2cm;
+}
+.radiotexts{
+    padding-bottom: 10px;
+}
+#suggestion{
+    display: none;
+}
+.form h2{
+    color: white;
+}

@@ -6,7 +6,7 @@
 
 /*Css of the body*/
 body{
-    background-color:#d4f1f4  ;
+    background:linear-gradient(to right, #1a3e52,rgb(24, 85, 85))  ;  
     background-repeat: no-repeat;
     font-size: 15px;
     font-family: 'Poppins', serif;   /*font*/
@@ -114,7 +114,7 @@ hr{
 .bodyContainer{
     padding-top: 100px;
     padding-bottom: 90px;
-    /*background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('newcropbg.jpg');*/
+    background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url('/images/newcropbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

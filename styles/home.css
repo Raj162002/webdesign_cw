@@ -1,0 +1,112 @@
+#mission{
+  width: 30em;
+  margin: 20px 550px;
+  text-align: justify;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background:linear-gradient(to right, rgb(20, 80, 80), rgb(21, 139, 139),rgb(5, 199, 199));
+  opacity: 0.9;
+  border-radius: 50px;
+  padding: 60px 80px;
+  z-index: 0;
+
+}
+#para{
+  color: rgb(223, 218, 218);
+  font-weight: bold;
+}
+#education{
+  margin: 20px 20px;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  color: white;
+  padding-left: 30px;
+
+}
+#education h2{
+  font-size: 80px;
+
+}
+#tiles{
+  margin:0;
+  padding:0;
+  font-family: poppins;
+  box-sizing: border-box;
+  color: white;
+  z-index: 0;
+}
+.wrapper{
+  padding: 10px 10%;
+
+}
+#card-area{
+  padding: 50px 0;
+}
+.box-area{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.box{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.box img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.overlay{
+  height: 0;
+  width: 100%;
+  background: linear-gradient(transparent, #1c1c1c 58%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 20px;
+  transition: height 0.5s;
+
+}
+.overlay h3{
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-family: bebas neue;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.overlay p{
+  padding-top: 5px;
+}
+.linkoverlay{
+  margin-top: 10px;
+  color: #262626;
+  text-decoration: none;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px 15px;
+
+}
+.box:hover img{
+  transform: scale(1.2);
+}
+.box:hover .overlay{
+  height: 170%;
+}
+
+
+
