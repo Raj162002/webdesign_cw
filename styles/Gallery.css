@@ -1,0 +1,97 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 10px;
+    margin-left:50px;
+    margin-top:20px;
+    background-color:#189ab4;
+    border-style: ridge;
+    border-color: black;
+  }
+  .container {
+    position: relative;
+  }
+  .text-image {
+    position: relative;
+    top: 50%;
+    right: 50%;
+  }
+  .image {
+    position: relative;
+    padding-right: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #189ab4;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: black;
+  }
+  .image-text {
+    position: absolute;
+    top: 10%;
+    left:70%;
+    transform: translateX(-50%);
+    color:black;
+    font-size: 1.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 800px;
+  }
+  .expanded-image {
+    position: absolute;
+    top: 1000px; /* Slightly lower */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: none;
+    text-align: center;
+	width: 1400px; 
+    height: 600px;
+  }
+  .container {
+    background-color: #189ab4;
+    padding: 10px;
+    border-style: solid;
+    border-style: ridge;
+    border-color: black;
+  }
+  body {
+    background-color: #75e6da;
+  }
+  h4 {
+    text-align: center;
+    font-size: 1.4vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+    color:white;
+
+  
+  }
+  h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #800080;
+  }
+  h3{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+  }.nice{
+    padding-left: 1px;
+  }
+  p{
+    font-size: 2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }.image-radius{
+    border-radius: 25px;
+    padding: 8px;
+  }
+  .bigbody{
+    margin-top: 80px;
+  }
+  .foot_text{
+    font-family: 'Poppins', serif;
+    font-size: 15px;   /*font*/
+  }

@@ -1,0 +1,25 @@
+body{
+    background-color: #189ab4;
+}
+.bigbodycontent img{
+    width: 470px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top:70px;
+}.bigbodycontent p{
+    margin-left: 36%;
+    padding-top: 27px;
+    font-size: 1.7vw;
+    color: whitesmoke;
+    line-height: 2.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}h1{
+    text-align: center;
+    padding-left: 600px;
+    text-decoration: underline;
+    font-size: 3vw;
+}
+.bigbodycontent{
+    margin-top: 80px;
+}
+

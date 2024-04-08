@@ -1,0 +1,51 @@
+.main-container,
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-container{
+    height: 1200px;
+    padding: 50px;
+    margin: 10px 100px;
+    background-color: orange;
+    border-radius: 50px;
+    border: 10px solid purple;
+}
+
+.sub-container{
+    width: 100%;
+    border-radius: 25px;
+    border: 3px dashed purple;
+    padding: 5px 10px;
+}
+.sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#sub-top{
+    height: auto;
+}
+
+#main-title{
+    font-size: 30px;
+    font-weight: bold;
+    height: auto;
+}
+.sub-description{
+    padding-bottom: 10px;
+}
+.sub-container a{
+    font-size: 13px;
+    padding: 10px 10px;
+    background-color: purple;
+    color: white;
+    border:none;
+    border-radius: 50px;
+}
+.sub-container a:hover{
+    background-color: red;
+}

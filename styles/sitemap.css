@@ -1,0 +1,22 @@
+body{
+    background-color: #75e6da;
+}
+h1{
+    text-align: center;
+    font-size: 5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link.a.hover.hover{
+    color: greenyellow;
+}
+text{
+    font-size: 1.1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}svg a:hover {
+    stroke: aqua;
+}svg a:hover rect{
+    stroke: aqua;
+} svg a:hover text{
+    stroke:aqua;
+}

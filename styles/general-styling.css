@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
+    url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype'),
+    url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype'),url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+body{
+    font-family: Poppins, Arial, SansSerif, serif;
+    background-color: whitesmoke;
+}
