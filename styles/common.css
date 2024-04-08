@@ -6,7 +6,7 @@
 
 /*Css of the body*/
 body{
-    background-color:#d4f1f4  ;  
+    background:linear-gradient(to right, #1a3e52,rgb(24, 85, 85));  
     background-repeat: no-repeat;
     font-size: 15px;
     font-family: 'Poppins', serif;   /*font*/
@@ -27,11 +27,13 @@ hr{
 .navbar{
     background-color: #189ab4;  /*background color of the navigation bar*/
     padding: 10px 100px;
+    opacity: 0.85;
     width: 100%;
     display: flex;
     justify-content: space-between;
     position: fixed;
     z-index: 1;
+    top: 0;
 }
 
 .logo{                /*css for the size of the logo*/
@@ -85,6 +87,7 @@ hr{
     background-color: #189ab4;
     justify-content: space-between;
     padding: 5px 50px;
+    margin-top: 10px;
 }
 
 .foot_text{
@@ -108,7 +111,21 @@ hr{
 .foot a{
     font-weight: 500;
 }
-
+.bodyContainer{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.5)50%),url("/images/newcropbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bodyContainer h1{
+    text-align: center;
+    font-size: 40px;
+    color: #f5f4f1;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 
 

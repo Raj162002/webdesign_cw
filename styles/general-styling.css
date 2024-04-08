@@ -6,5 +6,5 @@
 }
 body{
     font-family: Poppins, Arial, SansSerif, serif;
-    background-color: whitesmoke;
+    background-color: whitesmoke !important;
 }
