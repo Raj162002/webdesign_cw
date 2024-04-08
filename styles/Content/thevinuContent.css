@@ -1,0 +1,32 @@
+body{
+    background-image: url("/Images/Content/kid-with-vr-glasses-abstract-futuristic-school-classroom.jpg") !important;
+    background-size: cover;
+    
+}
+.card {
+    width: 80%; 
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(5, 68, 94, 0.8);
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.2); 
+}
+.content-body{
+    color: white;
+
+}
+.content-body img {
+    max-width: 40%; 
+    height: auto; 
+    display: block; 
+    margin: auto; 
+}
+.content {
+    text-align: center;
+    font-family: 'Poppins', serif;
+}
+
+#content-heading {
+    padding-top: 20px; 
+    color: white;
+}
